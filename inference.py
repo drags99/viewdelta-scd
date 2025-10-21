@@ -50,7 +50,7 @@ if __name__ == "__main__":
     text_list = ["concrete", "garage", "bulldozer"]
 
     # path to the checkpoint to be used
-    PATH_TO_CHECKPOINT = "viewdelta_best_checkpoint.pth"
+    PATH_TO_CHECKPOINT = "viewdelta_checkpoint.pth"
 
     model_args = TransformerModelArgs(
         text_embeddings="siglip",

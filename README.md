@@ -47,6 +47,11 @@ This will automatically set up the environment with all required dependencies in
 
 ## Running the Model
 
+### Install ViewDelta Model Weights
+```bash
+wget https://huggingface.co/hoskerelab/ViewDelta/resolve/main/viewdelta_checkpoint.pth
+```
+
 ### Basic Usage
 
 The repository includes an [inference.py](inference.py) script for running the model on image pairs. Here's how to use it:
